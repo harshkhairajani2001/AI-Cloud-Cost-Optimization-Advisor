@@ -12,8 +12,6 @@ node_modules/
 .next/
 out/
 .vercel/
-Lib/
-Scripts/
 tmp/
 temp/
 .DS_Store
