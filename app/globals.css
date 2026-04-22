@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --background: #07111b;
+  --foreground: #f3f7fb;
+  --muted: #8fa3bb;
+  --surface: rgba(10, 16, 24, 0.92);
+  --surface-strong: rgba(15, 23, 35, 0.96);
+  --line: rgba(148, 163, 184, 0.14);
+  --cyan: #22d3ee;
+  --cyan-deep: #0891b2;
+  --emerald: #34d399;
+  --amber: #f59e0b;
+  --rose: #fb7185;
+  --indigo: #818cf8;
+}
+
+@theme inline {
+  --font-sans: var(--font-manrope);
+  --font-display: var(--font-space-grotesk);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+    radial-gradient(circle at top left, rgba(34, 211, 238, 0.14), transparent 26%),
+    radial-gradient(circle at 88% 12%, rgba(129, 140, 248, 0.16), transparent 24%),
+    radial-gradient(circle at 50% 120%, rgba(52, 211, 153, 0.1), transparent 28%),
+    linear-gradient(180deg, #09111a 0%, var(--background) 100%);
+  background-size:
+    32px 32px,
+    32px 32px,
+    auto,
+    auto,
+    auto,
+    auto;
+  color: var(--foreground);
+  font-family: var(--font-manrope), sans-serif;
+}
+
+::selection {
+  background: rgba(34, 211, 238, 0.25);
+}
