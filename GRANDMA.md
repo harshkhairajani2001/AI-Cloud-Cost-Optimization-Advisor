@@ -1,32 +1,51 @@
-------------Concept-------------------------
+- Project Explanation
 
-I built a tool that helps people understand their cloud bills.
+1) Concept
 
-Cloud bills can be confusing and expensive.
-So my project:
+I am Harsh Pre Khairajani.
 
-Takes a billing file
-Checks where money is being spent
-Finds waste
-Suggests how to save money
-GenAI / LLM Part
+I built this project based on a real problem I faced while working in a cloud engineer role.
 
-I used an AI model (LLM) as a smart assistant.
+In AWS and Azure, billing is often confusing and difficult to understand.
+Even I faced issues identifying where the money was being spent and which services were not being used.
+
+So I designed a simple tool that helps in:
+
+- Uploading a cloud billing file
+- Understanding where the cost is going
+- Identifying unused or waste resources
+- Suggesting ways to reduce the cost
+
+I built this project in a basic and practical way, focusing on solving a real-world problem that I personally experienced.
+
+
+2) GenAI / LLM Part
+
+I used a Large Language Model (LLM) as a smart assistant in my project.
 
 What I did:
 
-I send a summary of the bill data to the AI
-The AI reads and understands it
-Then it explains:
-Why the cost is high
-Where money is being wasted
-What actions can reduce cost
+- I take the important summary of billing data
+- Send that summary to the AI model
+- The model understands the data and generates insights
 
-So instead of only numbers, it gives human-like advice.
+It explains:
+- Why the cost is high
+- Where money is being wasted
+- What actions can reduce the cost
 
-------Tech Stack----------------
-Frontend: Next.js + Tailwind CSS
-Backend: FastAPI
-Data Processing: pandas
-AI: Groq LLM
-Deployment: Vercel
+So instead of showing only numbers, the system gives simple and human-like explanations.
+
+
+3) Tech Stack
+
+- Frontend: Next.js + Tailwind CSS
+- Backend: FastAPI
+- Data Processing: pandas
+- AI Integration: Groq LLM
+- Deployment: Vercel
+
+
+In Basics Simple Summary
+
+- This project is a basic AI-powered tool that helps users understand their cloud bills and gives simple suggestions to save money.
