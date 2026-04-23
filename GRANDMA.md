@@ -2,7 +2,7 @@
 
 1) Concept
 
-I am Harsh Pre Khairajani.
+I am Harsh Prem Khairajani.
 
 I built this project based on a real problem I faced while working in a cloud engineer role.
 
